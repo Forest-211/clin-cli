@@ -5,9 +5,7 @@ module.exports = {
         node: true
     },
     extends: 'eslint:recommended',
-    parserOptions: {
-        ecmaVersion: 'latest'
-    },
+
     rules: {
         indent: [
             'error',
@@ -16,7 +14,7 @@ module.exports = {
                 MemberExpression: 'off'
             }
         ],
-        quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+        quotes: [4, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
         'quote-props': 'off',
         'no-shadow': ['error'],
         'node/no-extraneous-require': [
