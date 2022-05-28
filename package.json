@@ -1,0 +1,23 @@
+{
+  "name": "clin-cli",
+  "version": "1.0.0",
+  "description": "clin cli clin-cli @clin/cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clin",
+    "cli",
+    "clin-cli",
+    "@clin/cli",
+    "脚手架"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "lerna": "^5.0.0",
+    "prettier": "^2.6.2"
+  }
+}
