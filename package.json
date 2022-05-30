@@ -19,5 +19,8 @@
     "eslint": "^8.16.0",
     "lerna": "^5.0.0",
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "import-local": "^3.1.0"
   }
 }
